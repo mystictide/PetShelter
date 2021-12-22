@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Pet Shelter</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.ico">
+    <link href="/css/style.min.css" rel="stylesheet" />
+    <link href="/plugins/splide/css/splide.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="navbar">
+                <div class="navbar-logo">
+                </div>
+                <a href="#" class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="https://github.com/mystictide" target="_blank">About us</a></li>
+                        <li><a href="https://github.com/mystictide" target="_blank">Adopt</a></li>
+                        <li><a href="https://github.com/mystictide" target="_blank">Adoption Process</a></li>
+                        <li><a href="https://github.com/mystictide" target="_blank">Rules</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="welcome">
+                <div class="welcome-header">LOOKING FOR A NEW FRIEND?</div>
+                <div class="welcome-desc">In our shelter you'll find a faithful and<br />beloved friend for whom you'll become<br />the whole world</div>
+                <div class="welcome-dogs"><span>MEET OUR FRIENDS</span></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="desc">
+                <div class="desc-title">HOW IT WORKS</div>
+            </div>
+            <div class="howto">
+                <div class="howto-r">
+                    <h3>01</h3>
+                    <h4>Read the rules</h4>
+                    <h5>Please carefully read the rules for adopting an animal</h5>
+                    <div class="info"><span>RULES OF ADOPTION</span></div>
+                </div>
+                <div class="howto-r">
+                    <h3>02</h3>
+                    <h4>Find your friend</h4>
+                    <h5>Select a friend from the adoption list</h5>
+                    <div class="info"><span>ALL ADVERTISEMENTS</span></div>
+                </div>
+                <div class="howto-r">
+                    <h3>03</h3>
+                    <h4>Take them home</h4>
+                    <h5>After confirming your selection you can take your friend home</h5>
+                    <div class="info"><span>ADOPT ME</span></div>
+                </div>
+            </div>
+            <div class="adoption">
+                <div class="available">
+                    <h2>ADOPTION AVAILABLE</h2>
+                    <a href="#">See all</a>
+                </div>
+                <div class="slide splide">
+                    <div class="slide-boxes splide__track">
+                        <ul class="slide-box splide__list">
+                            <li class="splide__slide"><img src="../img/pets/aion.jpg" /><div class="info"><h4>Aion</h4><h5>7 months</h5></div><p>Sad story about Aion. Sad story about Aion. Sad story about Aion...</p></li>
+                            <li class="splide__slide"><img src="../img/pets/dion.jpg" /><div class="info"><h4>Dion</h4><h5>6 months</h5></div><p>Sad story about Dion. Sad story about Dion. Sad story about Dion...</p></li>
+                            <li class="splide__slide"><img src="../img/pets/atlas.jpg" /><div class="info"><h4>Atlas</h4><h5>5 months</h5></div><p>Sad story about Atlas. Sad story about Atlas. Sad story about Atlas...</p></li>
+                            <li class="splide__slide"><img src="../img/pets/kratos.jpg" /><div class="info"><h4>Kratos</h4><h5>3 months</h5></div><p>Sad story about Kratos. Sad story about Kratos. Sad story about Kratos...</p></li>
+                            <li class="splide__slide"><img src="../img/pets/nyx.jpg" /><div class="info"><h4>Nyx</h4><h5>4 months</h5></div><p>Sad story about Nyx. Sad story about Nyx. Sad story about Nyx...</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <h2>ABOUT US</h2>
+            </div>
+            <div class="shelter-info">
+                <div class="description">
+                    <p>
+                        Pet Shelter is a charitable organization, the main goal of which is to help animals that are left out on the street. <br />
+                        With the Shelter concept, we were able to take a long-term approach to protecting stray animals for the first time. Rescuing stray animals...
+                    </p>
+                    <a href="#">Read all</a>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <h1><i class="pets"></i>727</h1>
+                        <h4>pets rescued</h4>
+                    </div>
+                    <div class="stat">
+                        <h1><i class="medic"></i>310</h1>
+                        <h4>provided medical assistance</h4>
+                    </div>
+                    <div class="stat">
+                        <h1><i class="home"></i>534</h1>
+                        <h4>found a home</h4>
+                    </div>
+                    <div class="stat">
+                        <h1><i class="care"></i>43</h1>
+                        <h4>caretakers</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js" type="text/javascript"></script>
+    <script src="/plugins/splide/js/splide.min.js" type="text/javascript"></script>
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            arrows: false,
+            pagination: false,
+            rewind: true,
+        });
+
+        splide.mount();
+    </script>
+</body>
+</html>
