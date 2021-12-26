@@ -1,0 +1,25 @@
+{
+  "hosting": {
+	"site": "pup-shelter",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "compilerconfig.json",
+      "compilerconfig.json.defaults",
+      "Web.config",
+      "website.publishproj",
+      ".gitattributes.txt",
+      ".gitignore.txt",
+      "**/.vs/**",
+      "**/.firebase/**",
+      "**/content/**",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/pages/index.html"
+      }
+    ]
+  }
+}
